@@ -39,6 +39,11 @@ body::after {
     /* opacity: 0;*/
 }
 
+.title.active {
+    opacity: 1;
+    transition: all 3s;
+}
+
 section {
     position: relative;
     height: 100vh;
