@@ -36,6 +36,7 @@ body::after {
     transform: transform(-50%);
     z-index: 1;
     font-size: 1.2rem;
+    /* opacity: 0;*/
 }
 
 section {
@@ -44,4 +45,13 @@ section {
     width: 100%;
     overflow: hidden;
     z-index: 1;
+}
+
+.img-wrap {
+    position: relative;
+    top: 40%;
+    height: 40%;
+    width: 1px;
+    overflow: hidden;
+    /*opacity: 0;*/
 }
