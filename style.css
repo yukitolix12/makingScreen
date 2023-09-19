@@ -77,3 +77,8 @@ section {
     background-position: center;
     transform: scale(1.6);
 }
+
+.img-wrap.title.active > .img {
+    transform: scale(1);
+    transition: 1s ease-out;
+}
