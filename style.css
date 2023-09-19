@@ -33,7 +33,7 @@ body::after {
     position: absolute;
     top: 15%;
     left: 50%;
-    transform: transform(-50%);
+    transform: translateX(-50%);
     z-index: 1;
     font-size: 1.2rem;
     /* opacity: 0;*/
@@ -65,4 +65,15 @@ section {
     width: 40vw;
     opacity: 1;
     transition: opacity 1s, width 2s;
+}
+
+.img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40vw;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.6);
 }
