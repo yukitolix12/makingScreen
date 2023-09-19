@@ -1,0 +1,1 @@
+let imagesItem = [...document.querySelectorAll(".img-wrap")]
