@@ -1,1 +1,2 @@
-let imagesItem = [...document.querySelectorAll(".img-wrap")]
+let imagesItems = [...document.querySelectorAll(".img-wrap")];
+console.log(imagesItems);
