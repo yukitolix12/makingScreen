@@ -6,9 +6,7 @@ let titleMessage = document.querySelector(".title");
 //監視対象になった瞬間、activeを負荷する関数
 let setItemActive = (entries) => {
     //console.log(entries);
-    entries.forEach((entry) => {
-        console.log(entry); 
-    });
+    entries.forEach((entry) => {});
 };
 
 let options = {
