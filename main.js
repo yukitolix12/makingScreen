@@ -5,3 +5,5 @@ let titleMessage = document.querySelector(".title");
 
 //どこにいるのか監視する。そして、特定の位置に来たら関数を呼ぶ
 let observer = new IntersectionObserver(setItemActive,options);
+
+observer.observer(titleMessage);
