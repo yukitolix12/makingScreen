@@ -7,3 +7,8 @@ let titleMessage = document.querySelector(".title");
 let observer = new IntersectionObserver(setItemActive,options);
 
 observer.observer(titleMessage);
+
+//監視対象になった瞬間、activeを負荷する関数
+let setItemActive = (entries) => {
+    console.log(entries);
+};
