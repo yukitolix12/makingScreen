@@ -16,7 +16,8 @@ let setItemActive = (entries) => {
 };
 
 let options = {
-
+    rootMargin: "0px",
+    threshold: 0.5,
 };
 
 //どこにいるのか監視する。そして、特定の位置に来たら関数を呼ぶ
