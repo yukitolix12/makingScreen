@@ -27,4 +27,5 @@ observer.observe(titleMessage);
 //img-wrapは偶数と奇数で出現する場所が違う、そういう処理を書く
 imagesItems.map((item, index) => {
     console.log(item,index);
+    item.children[0].style.backgroundImage = `url(./images/${index + 1}.jpg)`;
 });
