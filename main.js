@@ -28,4 +28,6 @@ observer.observe(titleMessage);
 imagesItems.map((item, index) => {
     console.log(item,index);
     item.children[0].style.backgroundImage = `url(./images/${index + 1}.jpg)`;
+    index % 2 == 0 ? (item.style.left = "55%") : (item.style.left = "5%");
+    observer.observe(item);
 });
