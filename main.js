@@ -6,7 +6,11 @@ let titleMessage = document.querySelector(".title");
 //監視対象になった瞬間、activeを負荷する関数
 let setItemActive = (entries) => {
     //console.log(entries);
-    entries.forEach((entry) => {});
+    entries.forEach((entry) => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add("active");
+        }
+    });
 };
 
 let options = {
